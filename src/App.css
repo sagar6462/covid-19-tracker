@@ -10,6 +10,11 @@ body {
   margin-bottom: 20px;
   justify-content: space-between;
 }
+
+.app__header > h1 {
+  color: #fc3c3c;
+  font-size: 2rem;
+}
 .app__stats {
   display: flex;
   justify-content: space-between;
@@ -21,6 +26,13 @@ body {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
+}
+.app__dropdown {
+  background-color: white;
+}
+.app__right h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 @media (max-width: 990px) {
   .app {
